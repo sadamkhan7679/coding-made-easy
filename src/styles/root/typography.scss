@@ -1,0 +1,129 @@
+// typography.scss
+
+@mixin responsiveFont($fontSize) {
+  font-size: $fontSize;
+
+  @media (max-width: 320px) {
+    font-size: $fontSize * 0.5;
+  }
+
+  @media (max-width: 480px) {
+    font-size: $fontSize * 0.6;
+  }
+
+  @media (min-width: 481px) and (max-width: 768px) {
+    font-size: $fontSize * 0.7;
+  }
+
+  @media (min-width: 769px) and (max-width: 1024px) {
+    font-size: $fontSize * 0.8;
+  }
+
+  @media (min-width: 1025px) and (max-width: 1300px) {
+    font-size: $fontSize * 0.9;
+  }
+}
+
+.heading-1 {
+  font-weight: 700;
+  line-height: 1.2;
+  letter-spacing: -0.05em;
+
+  @include responsiveFont(2.5rem);
+}
+
+.heading-2 {
+  font-weight: 700;
+  line-height: 1.2;
+  letter-spacing: -0.05em;
+
+  @include responsiveFont(2.25rem);
+}
+
+.heading-3 {
+  font-weight: 700;
+  line-height: 1.2;
+  letter-spacing: -0.05em;
+
+  @include responsiveFont(2rem);
+}
+
+.heading-4 {
+  font-weight: 700;
+  line-height: 1.2;
+  letter-spacing: -0.05em;
+
+  @include responsiveFont(1.75rem);
+}
+
+.heading-5 {
+  font-weight: 700;
+  line-height: 1.2;
+  letter-spacing: -0.05em;
+
+  @include responsiveFont(1.5rem);
+}
+
+.heading-6 {
+  font-weight: 700;
+  line-height: 1.2;
+  letter-spacing: -0.05em;
+
+  @include responsiveFont(1.25rem);
+}
+
+.subtitle-1 {
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: -0.01em;
+
+  @include responsiveFont(1rem);
+}
+
+.subtitle-2 {
+  font-weight: 700;
+  line-height: 1.5;
+  letter-spacing: -0.01em;
+
+  @include responsiveFont(1rem);
+}
+
+.body-1 {
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: -0.01em;
+
+  @include responsiveFont(0.875rem);
+}
+
+.body-2 {
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: -0.01em;
+
+  @include responsiveFont(0.75rem);
+}
+
+.button {
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: -0.01em;
+
+  @include responsiveFont(0.625rem);
+}
+
+.caption {
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: -0.01em;
+
+  @include responsiveFont(0.625rem);
+}
+
+.overline {
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: -0.01em;
+
+  @include responsiveFont(0.625rem);
+}

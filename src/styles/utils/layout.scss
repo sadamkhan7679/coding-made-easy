@@ -1,0 +1,84 @@
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.flex-content-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.flex-content-between {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.flex-content-around {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.flex-content-evenly {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.flex-content-start {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.flex-content-end {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.flex-items-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.flex-items-start {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.flex-items-end {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.flex-items-stretch {
+  display: flex;
+  justify-content: center;
+  align-items: stretch;
+}
+
+.flex-items-baseline {
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+}
+
+.flex-items-normal {
+  display: flex;
+  justify-content: center;
+  align-items: normal;
+}
+
+.flex-items-inherit {
+  display: flex;
+  justify-content: center;
+  align-items: inherit;
+}
